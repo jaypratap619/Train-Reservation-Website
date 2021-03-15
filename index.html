@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Bootstrap CSS files -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
+    <link rel="stylesheet" href="bootstrap/css/font-awesome-5.8.1.css" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="bootstrap/css/mdb.css" />
+    <link rel="stylesheet" href="bootstrap/css/style.css" />
+    <link rel="stylesheet" href="bootstrap/css/book-now.css" />
+    <link rel="stylesheet" href="./bootstrap/css/footer.css" />
+
+    <title>Train Escape</title>
+  </head>
+  <body>
+    <!-- Main Header -->
+    <header class="main-header">
+      <!-- Navbar -->
+      <nav
+        class="navbar navbar-expand-sm scrolling-navbar navbar-dark fixed-top"
+      >
+        <div class="container">
+          <a href="index.html" class="navbar-brand">
+            <i class="fa fa-train" aria-hidden="true"></i> Train Escape
+          </a>
+          <!-- Toggle button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+
+          <div class="collapse navbar-collapse" id="ui-navbar">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item px-2">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="#Book-now">Book Now</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item px-2">
+                <a href="Login-signup/login.html" class="btn btn-danger"
+                  >Sign In / Sign UP</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Landing Page -->
+      <div class="landing-div">
+        <div
+          class="landing-wrapper d-flex flex-column h-100 align-items-center justify-content-center text-center"
+        >
+          <div class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <h1 class="display-4 animated slideInLeft delay-1s">
+                  Make Your Railtrips Amazing !<br />
+                  with Us
+                </h1>
+              </div>
+              <div class="carousel-item">
+                <h1 class="display-4 animated slideInRight delay-1s">
+                  Make Your Travel Amazing <br />
+                  with Us
+                </h1>
+              </div>
+              <div class="carousel-item">
+                <h1 class="display-4 animated slideInDown delay-1s">
+                  Feel Relaxed in Holidays <br />
+                  with Us
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="h-container"></div>
+
+    <!-- book-now -->
+
+    <section id="Book-now">
+      <br /><br />
+      <h1 class="text-center text-white" ><span style="color: rgb(201, 23, 67);">B</span>ook <span style="color: rgb(201, 23, 67);">Y</span>our <span style="color: rgb(201, 23, 67);">T</span>icket</h1>
+    <div id="booking" class="section">
+      <div class="section-center">
+        <div class="container">
+          <div class="row">
+            <div class="booking-form">
+              <form>
+                <div class="row no-margin">
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <span class="form-label">From:</span>
+                      <select class="form-control">
+                        <option></option>
+                        <option>Bhopal</option>
+                        <option>Delhi</option>
+                        <option>Jabalpur</option>
+                      </select>
+                      <span class="select-arrow"></span>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <span class="form-label">To:</span>
+                      <select class="form-control">
+                        <option></option>
+                        <option>Bhopal</option>
+                        <option>Delhi</option>
+                        <option>Jabalpur</option>
+                      </select>
+                      <span class="select-arrow"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="row no-margin">
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <span class="form-label">Check In</span>
+                      <input class="form-control" type="date" required>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <span class="form-label">Check Out</span>
+                      <input class="form-control" type="date" required>
+                    </div>
+                  </div>
+                </div>
+                <div class="row no-margin">
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <span class="form-label">Adults (18+)</span>
+                      <select class="form-control">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                      </select>
+                      <span class="select-arrow"></span>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <span class="form-label">Children (0-17)</span>
+                      <select class="form-control">
+                        <option>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                      </select>
+                      <span class="select-arrow"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <span class="form-label">Class</span>
+                  <select class="form-control" required>
+                    <option value="" selected hidden>Select Class</option>
+                    <option>1A</option>
+                    <option>2A</option>
+                    <option>3A</option>
+                    <option>FC</option>
+                    <option>SL</option>
+                    <option>2S</option>
+                  </select>
+                  <span class="select-arrow"></span>
+                </div>
+                <div class="form-group">
+                  <span class="form-label">Email</span>
+                  <input class="form-control" type="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                  <span class="form-label">Phone</span>
+                  <input class="form-control" type="tel" placeholder="Enter your phone number">
+                </div>
+                <div class="form-btn">
+                  <button class="submit-btn">Book Now</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+      <!-- end book-now -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="f-main-content">
+        <div class="left box">
+          <h2>About us</h2>
+          <div class="content">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+              beatae praesentium odit sunt soluta accusamus deserunt accusantium
+              aperiam repellendus et provident sint, ex qui minus doloribus
+              exercitationem non voluptas numquam?
+            </p>
+            <div class="social">
+              <a href="#"><span class="fab fa-facebook-f"></span></a>
+              <a href="#"><span class="fab fa-twitter"></span></a>
+              <a href="#"><span class="fab fa-instagram"></span></a>
+              <a href="#"><span class="fab fa-linkedin-in"></span></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="center box">
+          <h2>Address</h2>
+          <div class="content">
+            <div class="place">
+              <span class="fas fa-map-marker-alt"></span>
+              <span class="text">Delhi, India</span>
+            </div>
+            <div class="phone">
+              <span class="fas fa-phone"></span>
+              <span class="text">+91 0000000000</span>
+            </div>
+            <div class="email">
+              <span class="fas fa-envelope"></span>
+              <span class="text">abc@example.com</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="right box">
+          <h2>Contact us</h2>
+          <div class="content">
+            <form action="#">
+              <div class="email">
+                <div class="text">Email *</div>
+                <input type="email" required />
+              </div>
+              <div class="msg">
+                <div class="text">Message *</div>
+                <textarea name="" id="" cols="2" rows="2"></textarea>
+              </div>
+              <div class="f-btn">
+                <button type="submit">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+        <center>
+          <span class="far fa-copyright"></span
+          ><span> 2020 All rights reserved.</span>
+        </center>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS Files -->
+    <script src="bootstrap/js/jquery.js"></script>
+    <script src="bootstrap/js/popper.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="bootstrap/js/mdb.js"></script>
+    <script>
+      $(".carousel").carousel({
+        interval: 3000,
+      });
+    </script>
+  </body>
+</html>
