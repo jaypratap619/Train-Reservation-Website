@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.btn{
+    border-radius: 50px;
+}
+
+/* ----------------- Navbar -------------- */
+.navbar{
+    padding: 25px 0 !important;
+    font-size: 20px;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: bold;
+}
+.top-nav-collapse{
+    background-color: black;
+    padding: 0.75rem !important;
+}
+/* -------------- Landing Page ------------- */
+.landing-div{
+    background: white url("../../images/bg-image.jpg") no-repeat scroll center;
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+    color: white;
+}
+.landing-wrapper{
+    background-color:rgba(0,0,0,0.5);
+    height: 100%;
+}
+.landing-wrapper h1{
+    font-size: 80px;
+}
+
+

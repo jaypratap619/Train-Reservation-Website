@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation Form</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+<body>
+  <!-- /////////////////////////// -->
+  <header class="text-gray-600 body-font">
+    <div class="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        
+        <span class="ml-3 text-xl">Tailblocks</span>
+      </a>
+      <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+        <a class="mr-5 hover:text-gray-900">First Link</a>
+        <a class="mr-5 hover:text-gray-900">Second Link</a>
+        <a class="mr-5 hover:text-gray-900">Third Link</a>
+        <a class="mr-5 hover:text-gray-900">Fourth Link</a>
+      </nav>
+      <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </button>
+    </div>
+  </header>
+  <!-- /////////////////////////////////////////////////////////
+   -->
+    <div style="background-image: url(./image/t1.jpg); background-repeat: no-repeat; width: 1500px;">
+        <div style="margin-left:85px; padding-top: 40px; padding-bottom: 80px;"> 
+        <div class="card" style="width: 32rem; padding: 20px;">
+            <ul class="list-group list-group-flush">
+                <h1>Book Your Tickets</h1>
+                <!-- <img style="height:50px"; src="https://www.flaticon.com/svg/vstatic/svg/1185/1185568.svg?token=exp=1615643428~hmac=421ce585812b217ac0b71459856fb2f5"> -->
+                <li class="list-group-item"><div class="col-auto">
+                    <img style="height:10px"; src="https://www.flaticon.com/svg/vstatic/svg/1185/1185496.svg?token=exp=1616062554~hmac=65ec4c474845a96708afb0c69b214803"> 
+                    <br>
+                    <div>
+                      <br>
+                    <!-- //************************************************************************************************* -->
+            <form action="/registration" method="POST">
+                <input type="text" class="form-control" id="From" placeholder="From">
+                <input type="text" class="form-control" id="To" placeholder="To">
+                  </div></li>
+                  <!-- <img style="height: 40px;"; src="https://www.flaticon.com/svg/vstatic/svg/484/484224.svg?token=exp=1615657984~hmac=5f784616c8b642afcdfd630ac821b5d1"> -->
+                  <li class="list-group-item"><div class="col-auto">
+                    <label for="inputPassword2" class="visually-hidden">Date</label>
+                    <input type="date" class="form-control" id="Date" placeholder="Date">
+                  </div></li>
+                  <li class="list-group-item"><div class="col-auto">
+                    <label for="inputPassword2" class="visually-hidden">no of aults</label>
+                    <input type="text" class="form-control" id="no_of_aults" placeholder="no of aults">
+                  </div></li>
+                  <li class="list-group-item"><div class="col-auto">
+                    <label for="inputPassword2" class="visually-hidden">no of Children</label>
+                    <input type="text" class="form-control" id="no_of_Children" placeholder="no of Children">
+                  </div></li>
+                  <li class="list-group-item"><div class="col-auto">
+                    <label for="inputPassword2" class="visually-hidden">confirm Phoneno</label>
+                    <input type="text" class="form-control" id="confirmPhoneno" placeholder="confirmPhoneno">
+                  </div></li>
+                  <li class="list-group-item"><div class="col-auto">
+                    <div>
+                        <input type="text" class="form-control" id="no_ticketts" placeholder="No of Tickets">
+                          </div>
+                  </div></li>
+                  <li class="list-group-item"><div class="col-auto">
+                    <select class="form-select" aria-label="Default select example" name="Class1" id="Class1">
+                        <option selected>Any Class</option>
+                        <option value="1">AC 2 Tier(2A)</option>
+                        <option value="2">First Class(FC)</option>
+                        <option value="3">Sleeper(SL)</option>
+                      </select></li>
+              <li style="padding-left:350px ; ">
+                <button style="width: 100px;" type="button" class="btn btn-info">Book</button>
+              </li>
+            </ul>
+            </form>
+          </div>
+        </div>
+        </div>
+        </div>
+
+    
+</body>
+</html>
