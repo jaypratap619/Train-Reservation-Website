@@ -20,16 +20,8 @@ const userSchema = new mongoose.Schema({
     },
     salt:String,
 },{timestamps:true});
-
-userSchema.virtual("password")
-    .set(function(password){
-        this._password=password
-        this.salt=uuidv1();
-        this.encry_password = this.securePassword(password)
-    })
-    .get(function(){
-        return this._password
-    })
+//vit
+//all
 
 userSchema.methods ={
 
